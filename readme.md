@@ -1,7 +1,7 @@
 PhantomJS-S3 Screenshot Renderer Web Service
 ============================================
 
-[<img src="https://www.herokucdn.com/deploy/button.png">](https://github.com/jakedahn/heroku-phantomjs-to-s3)
+[<img src="https://www.herokucdn.com/deploy/button.png">](https://heroku.com/deploy?template=https://github.com/jakedahn/heroku-phantomjs-to-s3)
 
 This node.js web service takes a PNG screenshot of the specified URL and uploads it to an AWS S3 bucket. It uses [PhantomJS](http://phantomjs.org/) and [Shinichi Tomita's PhantomJS Buildpack for Heroku](http://github.com/stomita/heroku-buildpack-phantomjs.git).
 
