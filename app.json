@@ -1,0 +1,15 @@
+{
+  "name": "Website Screenshot API",
+  "description": "A simple API for taking screenshots of websites.",
+  "website": "https://github.com/jakedahn/heroku-phantomjs-to-s3",
+  "success_url": "/welcome",
+  "addons": [],
+  "env": {
+    "AWS_ACCESS_KEY_ID": "your s3 access key",
+    "AWS_SECRET_ACCESS_KEY": "your s3 secret key",
+    "AWS_BUCKET_NAME": "your s3 bucket name",
+    "NODE_ENV": "production",
+    "LD_LIBRARY_PATH": "/usr/local/lib:/usr/lib:/lib:/app/vendor/phantomjs/lib",
+    "PATH": "/usr/local/bin:/usr/bin:/bin:/app/vendor/phantomjs/bin"
+  }
+}
